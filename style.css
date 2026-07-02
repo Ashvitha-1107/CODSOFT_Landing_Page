@@ -1,0 +1,124 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f4f7fc;
+}
+
+/* Navbar */
+header{
+background:#1e1e2f;
+padding:20px 8%;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav h2{
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+/* Hero */
+.hero{
+height:90vh;
+background:linear-gradient(135deg,#667eea,#764ba2);
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:3rem;
+}
+
+.hero p{
+margin:20px 0;
+font-size:1.2rem;
+}
+
+.btn{
+display:inline-block;
+background:#ff9800;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+/* Features */
+.features{
+padding:80px 10%;
+text-align:center;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:30px;
+width:280px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3{
+color:#667eea;
+margin-bottom:15px;
+}
+
+/* About */
+.about{
+background:white;
+padding:80px 10%;
+text-align:center;
+}
+
+/* CTA */
+.cta{
+background:#764ba2;
+color:white;
+text-align:center;
+padding:80px 10%;
+}
+
+.cta h2{
+margin-bottom:20px;
+}
+
+/* Footer */
+footer{
+background:#1e1e2f;
+color:white;
+text-align:center;
+padding:20px;
+}
